@@ -1,0 +1,16 @@
+name: "Dhondhu Maharaaj"
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'main'
+      - 'hotfix/**'
+
+jobs:
+  DhondhuMaharaaj:
+    name: Dhondhu Maharaj
+    runs-on: Rajveer-Nanda
+    steps:
+      - name: Dhondhu Maharaaj Rocks!
+        run: echo "Dhondhu Maharaaj"
